@@ -1,0 +1,60 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+        background: url(../img/bg.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      
+}
+.logo {
+    
+  border: 1px solid #ddd;	/* thickness and color of border */
+  border-radius: 4px;		/* edge rounding of border */
+  width: 100px;				/* width of image (px or % or auto) */
+  height: auto;				/* height of image (px or % or auto) */
+}
+h1{
+    font-size: 5rem;
+    color: whitesmoke;
+}
+h2 {
+    color: whitesmoke;
+
+}
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+}
+
+.btn-primary {
+    
+    border-color: rgb(52, 185, 172);
+    background-color: rgb(52, 185, 172);
+}
+.btn-primary:hover {
+
+    border-color: rgb(35, 124, 115);
+    background-color: rgb(35, 124, 115);
+    border-width: 4px;
+}
+.btn-primary:active {
+    border-color: rgb(35, 124, 115);
+    background-color: rgb(110, 187, 179);
+}
+.btn-xl {
+    padding:1rem 2rem ;
+
+}
+
+hr {
+    border-color: rgb(52, 185, 172);
+    border-width: 2px;
+    max-width: 65px;
+}
+.buffer {
+    height: 15rem;
+}
